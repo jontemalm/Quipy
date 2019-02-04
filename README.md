@@ -1,16 +1,14 @@
-# quipy README
+# Quipy README
 
 Quickly copy file(s) to a pre-defined destination
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Quickly copy file(s) to a pre-defined destination by selecting files in the explorer and use "Quick copy" in the context menu.
 
-For example if there is an image subfolder under your extension project workspace:
+<!-- \!\[feature X\]\(images/feature-x.png\) -->
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+<!-- > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow. -->
 
 ## Requirements
 
@@ -34,7 +32,7 @@ Initial release of Quipy
 
 ---
 
-## Working with Markdown
+<!-- ## Working with Markdown
 
 **Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
@@ -47,4 +45,4 @@ Initial release of Quipy
 -   [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 -   [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy!** -->
