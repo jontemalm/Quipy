@@ -1,12 +1,16 @@
 {
 	"name": "quipy",
 	"displayName": "Quipy",
-	"icon": "https://github.com/jontemalm/Quipy/blob/master/letter-q.png",
+	"icon": "letter-q.png",
 	"author": {
 		"name": "Jonas Malm"
 	},
+	"publisher": "jmalm",
 	"description": "Quick copy of files to pre-defined location(s)",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"repository": {
+		"url": "https://github.com/jontemalm/Quipy"
+	},
 	"engines": {
 		"vscode": "^1.30.0"
 	},
@@ -75,7 +79,7 @@
 		"@types/node": "^8.10.25",
 		"@types/untildify": "^3.0.0",
 		"tslint": "^5.8.0",
-		"typescript": "^3.1.4",
+		"typescript": "^3.3.1",
 		"vscode": "^1.1.25"
 	},
 	"dependencies": {

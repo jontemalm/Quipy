@@ -26,11 +26,19 @@ None, please create issues @ Github
 
 ## Release Notes
 
+### 1.0.1
+
+Updated ReadMe
+
 ### 1.0.0
 
 Initial release of Quipy
 
 ---
+
+## Credits
+
+Icon made by Twitter (https://www.flaticon.com/authors/twitter ) from https://www.flaticon.com/, licensed by http://creativecommons.org/licenses/by/3.0/CC
 
 <!-- ## Working with Markdown
 
