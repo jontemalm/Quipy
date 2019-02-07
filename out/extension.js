@@ -102,7 +102,8 @@ function prepareCopy(incomingFiles, config) {
     });
 }
 function checkDirAndCopy(file, path, config) {
-    var dir = untildify(path.substr(0, path.lastIndexOf('/')));
+    path = path.replace('/\\', '\\');
+    var dir = path.indexOf('~') > 0 ? untildify(path.substr(0, path.lastIndexOf('/'))) : path.substr(0, path.lastIndexOf('\\'));
     if (config.createFolderStructureIfNotExist) {
         mkdirp(dir, (err) => {
             if (err) {

@@ -26,6 +26,10 @@ None, please create issues @ Github
 
 ## Release Notes
 
+### 1.0.2
+
+Creation of folder structure in windows
+
 ### 1.0.1
 
 Updated ReadMe

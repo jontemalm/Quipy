@@ -100,7 +100,8 @@ function prepareCopy(incomingFiles: any[], config: any) {
 }
 
 function checkDirAndCopy(file: string, path: string, config: any) {
-    var dir = untildify(path.substr(0, path.lastIndexOf('/')));
+    path = path.replace('/\\', '\\');
+    var dir = path.indexOf('~') > 0 ? untildify(path.substr(0, path.lastIndexOf('/'))) : path.substr(0, path.lastIndexOf('\\'));
     if (config.createFolderStructureIfNotExist) {
         mkdirp(dir, (err: NodeJS.ErrnoException) => {
             if (err) {
